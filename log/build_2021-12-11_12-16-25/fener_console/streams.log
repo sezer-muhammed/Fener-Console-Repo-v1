@@ -1,0 +1,18 @@
+[0.169s] Invoking command in '/home/sezer/CONSOLE/ros2_console/build/fener_console': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console
+[0.331s] running develop
+[0.423s] running egg_info
+[0.424s] writing fener_console.egg-info/PKG-INFO
+[0.424s] writing dependency_links to fener_console.egg-info/dependency_links.txt
+[0.424s] writing entry points to fener_console.egg-info/entry_points.txt
+[0.424s] writing requirements to fener_console.egg-info/requires.txt
+[0.424s] writing top-level names to fener_console.egg-info/top_level.txt
+[0.450s] reading manifest file 'fener_console.egg-info/SOURCES.txt'
+[0.451s] writing manifest file 'fener_console.egg-info/SOURCES.txt'
+[0.481s] running build_ext
+[0.482s] Creating /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener-console.egg-link (link to .)
+[0.482s] Installing driver_keyboard script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.482s] Installing sensor_vis script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.483s] 
+[0.483s] Installed /home/sezer/CONSOLE/ros2_console/build/fener_console
+[0.483s] running install_data
+[0.497s] Invoked command in '/home/sezer/CONSOLE/ros2_console/build/fener_console' returned '0': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console

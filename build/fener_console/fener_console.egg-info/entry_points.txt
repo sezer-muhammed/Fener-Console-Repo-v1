@@ -1,0 +1,4 @@
+[console_scripts]
+driver_keyboard = fener_console.driver_keyboard:main
+sensor_vis = fener_console.bno055_lidar_vis:main
+
