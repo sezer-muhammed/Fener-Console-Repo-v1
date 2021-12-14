@@ -1,0 +1,4 @@
+[console_scripts]
+driver_keyboard = deneme.driver_keyboard:main
+sensor_vis = deneme.bno055_lidar_vis:main
+

@@ -11,7 +11,6 @@ setup.py
 fener_console/__init__.py
 fener_console/bno055_lidar_vis.py
 fener_console/driver_keyboard.py
-fener_console/fener_arduino_comm.py
 fener_console.egg-info/PKG-INFO
 fener_console.egg-info/SOURCES.txt
 fener_console.egg-info/dependency_links.txt

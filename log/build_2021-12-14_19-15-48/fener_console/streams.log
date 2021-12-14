@@ -1,0 +1,12 @@
+[0.164s] Invoking command in '/home/sezer/CONSOLE/ros2_console/build/fener_console': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console
+[0.314s] running develop
+[0.406s] running egg_info
+[0.407s] creating deneme.egg-info
+[0.407s] writing deneme.egg-info/PKG-INFO
+[0.407s] writing dependency_links to deneme.egg-info/dependency_links.txt
+[0.407s] writing entry points to deneme.egg-info/entry_points.txt
+[0.407s] writing requirements to deneme.egg-info/requires.txt
+[0.407s] writing top-level names to deneme.egg-info/top_level.txt
+[0.408s] writing manifest file 'deneme.egg-info/SOURCES.txt'
+[0.428s] error: package directory 'deneme' does not exist
+[0.441s] Invoked command in '/home/sezer/CONSOLE/ros2_console/build/fener_console' returned '1': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console
