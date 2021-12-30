@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing fener_console.egg-info/PKG-INFO
+writing dependency_links to fener_console.egg-info/dependency_links.txt
+writing entry points to fener_console.egg-info/entry_points.txt
+writing requirements to fener_console.egg-info/requires.txt
+writing top-level names to fener_console.egg-info/top_level.txt
+reading manifest file 'fener_console.egg-info/SOURCES.txt'
+writing manifest file 'fener_console.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener-console.egg-link (link to .)
+Installing driver_keyboard script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+Installing sensor_vis script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+
+Installed /home/sezer/CONSOLE/ros2_console/build/fener_console
+running install_data
+creating /home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/launch
+creating /home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/config
+copying config/params.yaml -> /home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/config

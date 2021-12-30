@@ -7,8 +7,12 @@
 # Import the necessary libraries
 import rclpy # Python Client Library for ROS 2
 from rclpy.node import Node # Handles the creation of nodes
-from sensor_msgs.msg import Range
+from sensor_msgs.msg import Image
 import numpy as np
+import cv2
+import cv_bridge
+
+NODE_NAME = "webcam_publisher"
 
 class ImagePublisher(Node):
   """
@@ -19,35 +23,27 @@ class ImagePublisher(Node):
     Class constructor to set up the node
     """
     # Initiate the Node class's constructor and give it a name
-    super().__init__('range_publisher')
-      
-    # Create the publisher. This publisher will publish an Image
-    # to the video_frames topic. The queue size is 10 messages.
-    self.publisher_ = self.create_publisher(Range, 'range', 1)
-      
-    # We will publish a message every 0.1 seconds
-    timer_period = 1/3  # seconds
-      
-    # Create the timer
-    self.timer = self.create_timer(timer_period, self.timer_callback)
-         
+    super().__init__(NODE_NAME)
 
-
-    self.msg = Range()
-
+    timer_period = 1/60  # seconds
     
-    self.msg.header.frame_id = "Camera Left"
-    self.msg.radiation_type = 0
-    self.msg.field_of_view = np.deg2rad(13.0) 
-    self.msg.min_range = 0.1
-    self.msg.max_range = 1.0
-    self.msg.range = 0.5
+    self.publisher_ = self.create_publisher(Image, 'webcam/image', 1)
+    self.timer = self.create_timer(timer_period, self.timer_callback)
+    
+    self.cam = cv2.VideoCapture(0)
+    self.br = cv_bridge.CvBridge()
+
+    self.get_logger().info((str(NODE_NAME) + " Node has been started and publishing data with constant rate at max " + str(1/timer_period)))
+  
    
   def timer_callback(self):
-    self.msg.header.stamp = self.get_clock().now().to_msg()
-    self.msg.range = np.random.randint(0, 100) / 100
-    print(self.msg.range)
-    self.publisher_.publish(self.msg)
+    _, frame = self.cam.read()
+
+    msg = self.br.cv2_to_imgmsg(frame, "bgr8")
+    msg.header.stamp = self.get_clock().now().to_msg()
+    msg.header.frame_id = "Camera Left"
+    self.publisher_.publish(msg)
+    print()
   
 def main(args=None):
   

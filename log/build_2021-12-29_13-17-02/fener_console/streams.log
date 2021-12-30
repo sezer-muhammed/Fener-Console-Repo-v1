@@ -1,0 +1,21 @@
+[0.573s] Invoking command in '/home/sezer/CONSOLE/ros2_console/build/fener_console': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console
+[0.732s] running develop
+[0.835s] running egg_info
+[0.835s] writing fener_console.egg-info/PKG-INFO
+[0.835s] writing dependency_links to fener_console.egg-info/dependency_links.txt
+[0.835s] writing entry points to fener_console.egg-info/entry_points.txt
+[0.835s] writing requirements to fener_console.egg-info/requires.txt
+[0.835s] writing top-level names to fener_console.egg-info/top_level.txt
+[0.858s] reading manifest file 'fener_console.egg-info/SOURCES.txt'
+[0.858s] writing manifest file 'fener_console.egg-info/SOURCES.txt'
+[0.879s] running build_ext
+[0.880s] Creating /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener-console.egg-link (link to .)
+[0.880s] Installing driver_keyboard script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.881s] Installing sensor_vis script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.881s] 
+[0.881s] Installed /home/sezer/CONSOLE/ros2_console/build/fener_console
+[0.881s] running install_data
+[0.881s] creating /home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/launch
+[0.881s] creating /home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/config
+[0.881s] copying config/params.yaml -> /home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/config
+[0.896s] Invoked command in '/home/sezer/CONSOLE/ros2_console/build/fener_console' returned '0': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console

@@ -1,0 +1,40 @@
+[0.486s] Invoking command in '/home/sezer/CONSOLE/ros2_console/src/fener_console': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fener_console build --build-base /home/sezer/CONSOLE/ros2_console/build/fener_console/build install --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --record /home/sezer/CONSOLE/ros2_console/build/fener_console/install.log --single-version-externally-managed
+[0.633s] running egg_info
+[0.633s] creating ../../build/fener_console/fener_console.egg-info
+[0.634s] writing ../../build/fener_console/fener_console.egg-info/PKG-INFO
+[0.634s] writing dependency_links to ../../build/fener_console/fener_console.egg-info/dependency_links.txt
+[0.634s] writing entry points to ../../build/fener_console/fener_console.egg-info/entry_points.txt
+[0.634s] writing requirements to ../../build/fener_console/fener_console.egg-info/requires.txt
+[0.634s] writing top-level names to ../../build/fener_console/fener_console.egg-info/top_level.txt
+[0.635s] writing manifest file '../../build/fener_console/fener_console.egg-info/SOURCES.txt'
+[0.656s] reading manifest file '../../build/fener_console/fener_console.egg-info/SOURCES.txt'
+[0.657s] writing manifest file '../../build/fener_console/fener_console.egg-info/SOURCES.txt'
+[0.657s] running build
+[0.657s] running build_py
+[0.657s] creating /home/sezer/CONSOLE/ros2_console/build/fener_console/build
+[0.657s] creating /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib
+[0.657s] creating /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console
+[0.657s] copying fener_console/bno055_lidar_vis.py -> /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console
+[0.657s] copying fener_console/webcam_publisher.py -> /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console
+[0.657s] copying fener_console/__init__.py -> /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console
+[0.657s] copying fener_console/driver_keyboard.py -> /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console
+[0.657s] running install
+[0.658s] running install_lib
+[0.658s] creating /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console
+[0.658s] copying /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console/bno055_lidar_vis.py -> /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console
+[0.659s] copying /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console/webcam_publisher.py -> /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console
+[0.659s] copying /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console/__init__.py -> /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console
+[0.659s] copying /home/sezer/CONSOLE/ros2_console/build/fener_console/build/lib/fener_console/driver_keyboard.py -> /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console
+[0.659s] byte-compiling /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console/bno055_lidar_vis.py to bno055_lidar_vis.cpython-38.pyc
+[0.660s] byte-compiling /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console/webcam_publisher.py to webcam_publisher.cpython-38.pyc
+[0.661s] byte-compiling /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console/__init__.py to __init__.cpython-38.pyc
+[0.661s] byte-compiling /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console/driver_keyboard.py to driver_keyboard.cpython-38.pyc
+[0.661s] running install_data
+[0.662s] running install_egg_info
+[0.662s] Copying ../../build/fener_console/fener_console.egg-info to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages/fener_console-0.0.0-py3.8.egg-info
+[0.663s] running install_scripts
+[0.673s] Installing driver_keyboard script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.673s] Installing sensor_vis script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.673s] Installing webcam script to /home/sezer/CONSOLE/ros2_console/install/fener_console/lib/fener_console
+[0.674s] writing list of installed files to '/home/sezer/CONSOLE/ros2_console/build/fener_console/install.log'
+[0.685s] Invoked command in '/home/sezer/CONSOLE/ros2_console/src/fener_console' returned '0': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fener_console build --build-base /home/sezer/CONSOLE/ros2_console/build/fener_console/build install --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --record /home/sezer/CONSOLE/ros2_console/build/fener_console/install.log --single-version-externally-managed

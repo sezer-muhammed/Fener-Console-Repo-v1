@@ -1,0 +1,134 @@
+[0.192s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.192s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f95bc45c6d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f95bc45c6d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f95bc45cc40>)
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.198s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sezer/CONSOLE/ros2_console'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/fener_console) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fener_console' with type 'ros.ament_python' and name 'fener_console'
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fener_console' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'fener_console' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sezer/CONSOLE/ros2_console/build/fener_console', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sezer/CONSOLE/ros2_console/install/fener_console', 'merge_install': False, 'path': '/home/sezer/CONSOLE/ros2_console/src/fener_console', 'symlink_install': True, 'test_result_base': None}
+[0.227s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'fener_console' is in: /home/sezer/CONSOLE/ros2_console/install/fener_console
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding fener_console
+
+This may be promoted to an error in a future release of colcon-core.
+[0.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.228s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sezer/CONSOLE/ros2_console/src/fener_console' with build type 'ament_python'
+[0.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('fener_console', 'ament_prefix_path')
+[0.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/hook/ament_prefix_path.ps1'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/hook/ament_prefix_path.dsv'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/hook/ament_prefix_path.sh'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sezer/CONSOLE/ros2_console/src/fener_console'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sezer/CONSOLE/ros2_console/build/fener_console': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('fener_console', 'pythonpath_develop')
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sezer/CONSOLE/ros2_console/build/fener_console/share/fener_console/hook/pythonpath_develop.ps1'
+[1.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sezer/CONSOLE/ros2_console/build/fener_console' returned '0': PYTHONPATH=/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sezer/CONSOLE/ros2_console/install/fener_console --editable --build-directory /home/sezer/CONSOLE/ros2_console/build/fener_console/build --no-deps install_data --install-dir /home/sezer/CONSOLE/ros2_console/install/fener_console
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sezer/CONSOLE/ros2_console/build/fener_console/share/fener_console/hook/pythonpath_develop.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sezer/CONSOLE/ros2_console/build/fener_console/share/fener_console/hook/pythonpath_develop.sh'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/sezer/CONSOLE/ros2_console/install/fener_console' for CMake module files
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/sezer/CONSOLE/ros2_console/install/fener_console' for CMake config files
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/sezer/CONSOLE/ros2_console/install/fener_console/lib'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/sezer/CONSOLE/ros2_console/install/fener_console/bin'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/pkgconfig/fener_console.pc'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/sezer/CONSOLE/ros2_console/install/fener_console/lib/python3.8/site-packages'
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('fener_console', 'pythonpath')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/hook/pythonpath.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/hook/pythonpath.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/hook/pythonpath.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fener_console)
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/package.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/package.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/package.sh'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/package.bash'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/sezer/CONSOLE/ros2_console/install/fener_console/share/fener_console/package.zsh'
+[1.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sezer/CONSOLE/ros2_console/install/fener_console/share/colcon-core/packages/fener_console)
+[1.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.136s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.141s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.153s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sezer/CONSOLE/ros2_console/install/local_setup.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sezer/CONSOLE/ros2_console/install/_local_setup_util_ps1.py'
+[1.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sezer/CONSOLE/ros2_console/install/setup.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sezer/CONSOLE/ros2_console/install/local_setup.sh'
+[1.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sezer/CONSOLE/ros2_console/install/_local_setup_util_sh.py'
+[1.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sezer/CONSOLE/ros2_console/install/setup.sh'
+[1.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sezer/CONSOLE/ros2_console/install/local_setup.bash'
+[1.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sezer/CONSOLE/ros2_console/install/setup.bash'
+[1.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sezer/CONSOLE/ros2_console/install/local_setup.zsh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sezer/CONSOLE/ros2_console/install/setup.zsh'

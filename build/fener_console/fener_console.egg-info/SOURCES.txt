@@ -8,9 +8,11 @@ setup.py
 ../../build/fener_console/fener_console.egg-info/requires.txt
 ../../build/fener_console/fener_console.egg-info/top_level.txt
 ../../build/fener_console/fener_console.egg-info/zip-safe
+config/params.yaml
 fener_console/__init__.py
 fener_console/bno055_lidar_vis.py
 fener_console/driver_keyboard.py
+fener_console/webcam_publisher.py
 fener_console.egg-info/PKG-INFO
 fener_console.egg-info/SOURCES.txt
 fener_console.egg-info/dependency_links.txt
