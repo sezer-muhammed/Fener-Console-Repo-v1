@@ -9,6 +9,7 @@ import cv_bridge
 
 NODE_NAME = "webcam_publisher"
 FRAME = "Camera Left"
+NAME_SPACE = "webcam"
 
 class ImagePublisher(Node):
   """
@@ -19,8 +20,8 @@ class ImagePublisher(Node):
     Class constructor to set up the node
     """
     # Initiate the Node class's constructor and give it a name
-    super().__init__(NODE_NAME)
-
+    super().__init__(NODE_NAME, namespace=NAME_SPACE)
+    
     self.timer_period = 1/60  # seconds
     self.frame_counter = 0
 
@@ -53,8 +54,8 @@ class ImagePublisher(Node):
     
     self.get_cam_msg()
     
-    self.caminfo_publiser = self.create_publisher(CameraInfo, "webcam/camera_info", 1)
-    self.img_publisher = self.create_publisher(Image, 'webcam/image_raw', 1)
+    self.caminfo_publiser = self.create_publisher(CameraInfo, "camera_info", 1)
+    self.img_publisher = self.create_publisher(Image, 'image_raw', 1)
     self.timer = self.create_timer(self.timer_period, self.timer_callback)
     self.timer = self.create_timer(self.timer_period * self.info_rate, self.timer_callback_info)
     self.add_on_set_parameters_callback(self.parameter_callback)
@@ -62,7 +63,7 @@ class ImagePublisher(Node):
     self.cam = cv2.VideoCapture(0)
     self.br = cv_bridge.CvBridge()
 
-    self.get_logger().info((str(NODE_NAME) + " Node has been started and publishing data with constant rate at max " + str(1/self.timer_period)))
+    self.get_logger().info(NAME_SPACE + " " + NODE_NAME + " Node has been started and publishing data with constant rate at max " + str(1/self.timer_period))
   
   def timer_callback_info(self):
     self.get_logger().info(f"\n{NODE_NAME} Node is Alive\nTotal frame published {self.frame_counter}\nFrame id {FRAME}\n")
